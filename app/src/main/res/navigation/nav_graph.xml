@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/library_fragment">
+    <fragment
+        android:id="@+id/library_fragment"
+        android:name="com.example.bitperfectplayer.ui.LibraryFragment"
+        android:label="Library" />
+    <fragment
+        android:id="@+id/player_fragment"
+        android:name="com.example.bitperfectplayer.ui.PlayerFragment"
+        android:label="Player" />
+</navigation>
